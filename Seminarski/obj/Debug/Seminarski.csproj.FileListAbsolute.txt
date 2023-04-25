@@ -1,0 +1,22 @@
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\bin\Debug\Seminarski.exe.config
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\bin\Debug\Seminarski.exe
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\bin\Debug\Seminarski.pdb
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.AssemblyReference.cache
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\obj\Debug\Seminarski.Properties.Resources.resources
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.GenerateResource.cache
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.CoreCompileInputs.cache
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\obj\Debug\Seminarski.exe
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\obj\Debug\Seminarski.pdb
+D:\Downloads\Download permanent\Faks\2. Godina\Seminari\Algoritmi i programiranje\Seminarski rad\Seminarski\obj\Debug\Seminarski.StajanjaApp.resources
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\bin\Debug\Seminarski.exe.config
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\bin\Debug\Seminarski.exe
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\bin\Debug\Seminarski.pdb
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.AssemblyReference.cache
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.SuggestedBindingRedirects.cache
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.StajanjaApp.resources
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.Properties.Resources.resources
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.GenerateResource.cache
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.CoreCompileInputs.cache
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.exe
+T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.pdb
