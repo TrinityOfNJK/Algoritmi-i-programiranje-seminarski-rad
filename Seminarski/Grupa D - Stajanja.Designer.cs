@@ -176,7 +176,6 @@ namespace Seminarski
 			this.txt_brzinaogranicenja.Name = "txt_brzinaogranicenja";
 			this.txt_brzinaogranicenja.Size = new System.Drawing.Size(91, 20);
 			this.txt_brzinaogranicenja.TabIndex = 1;
-			this.txt_brzinaogranicenja.TextChanged += new System.EventHandler(this.txt_brzinaogranicenja_TextChanged);
 			this.txt_brzinaogranicenja.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_brzinaogranicenja_KeyPress);
 			// 
 			// lbl_brzinaOgranicenja

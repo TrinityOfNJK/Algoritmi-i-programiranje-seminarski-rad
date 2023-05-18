@@ -70,11 +70,6 @@ namespace Seminarski
 				e.Handled = true;
 			}
 		}
-
-		private void txt_brzinaogranicenja_TextChanged(object sender, EventArgs e)
-		{
-			brojBrzina();
-		}
 		#endregion
 
 
@@ -83,33 +78,27 @@ namespace Seminarski
 		// Učitavanje podataka iz datoteke
 		private void ucitajPodatke()
 		{
-			if (File.Exists("podaciD.txt"))
-			{
-				StreamReader ulaz = new StreamReader("podaciD.txt");
-				int i = 0;
-
-				try
-				{
-					while (!ulaz.EndOfStream)
-					{
-						brzineucitano[i] = int.Parse(ulaz.ReadLine());
-						i++;
-					}
-					MessageBox.Show("Uspješno učitani podaci!");
-					ulaz.Close();
-					ucitano = true;
-				}
-				catch (Exception ex)
-				{
-					MessageBox.Show("Neuspjelo učitavanje datoteke" + ex);
-				}
-			}
-			else
+			if (!File.Exists("podaciD.txt"))
 			{
 				string putanja = Directory.GetCurrentDirectory();
 				MessageBox.Show("Datoteka podaciD.txt ne postoji u ovom direktoriju te nije učitana!");
 				MessageBox.Show("Molimo Vas da je prebacite u direktorij gdje se nalazi izvršna datoteka: \n" + putanja);
+				return;
+			}
 
+			try
+			{
+				StreamReader ulaz = new StreamReader("podaciD.txt");
+				for (int i = 0; !ulaz.EndOfStream; i++)
+				{
+					brzineucitano[i] = int.Parse(ulaz.ReadLine());
+				}
+				MessageBox.Show("Uspješno učitani podaci!");
+				ucitano = true;
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Neuspjelo učitavanje datoteke" + ex);
 			}
 		}
 
@@ -191,43 +180,41 @@ namespace Seminarski
 				return;
 			}
 
-
 			int pocetniIndeks, krajnjiIndeks;
 
-			if (!string.IsNullOrEmpty(txt_krajnjiIndeks.Text) && !string.IsNullOrEmpty(txt_pocetniIndeks.Text))
-			{
-				try
-				{
-					pocetniIndeks = int.Parse(txt_pocetniIndeks.Text);
-					krajnjiIndeks = int.Parse(txt_krajnjiIndeks.Text);
-
-					if (pocetniIndeks < 0 || pocetniIndeks > brzineucitano.Length || krajnjiIndeks < 0 || krajnjiIndeks > brzineucitano.Length)
-					{
-						MessageBox.Show("Uneseni indeksi nisu u rasponu!");
-					}
-
-					else if (pocetniIndeks > krajnjiIndeks)
-					{
-						MessageBox.Show("Početni indeks ne moze biti veći od krajnjeg!");
-					}
-					else
-					{
-						rtxt_brzine.Clear();
-						for (int i = pocetniIndeks; i <= krajnjiIndeks; i++)
-						{
-							rtxt_brzine.AppendText($"{brzineucitano[i]} \n");
-						}
-					}
-				}
-				catch
-				{
-					MessageBox.Show("Krivi format!");
-				}
-			}
-			else
+			if (string.IsNullOrEmpty(txt_krajnjiIndeks.Text) && string.IsNullOrEmpty(txt_pocetniIndeks.Text))
 			{
 				MessageBox.Show("Barem jedna od granica nije upisana");
 			}
+
+			try
+			{
+				pocetniIndeks = int.Parse(txt_pocetniIndeks.Text);
+				krajnjiIndeks = int.Parse(txt_krajnjiIndeks.Text);
+
+				if (pocetniIndeks < 0 || pocetniIndeks > brzineucitano.Length || krajnjiIndeks < 0 || krajnjiIndeks > brzineucitano.Length)
+				{
+					MessageBox.Show("Uneseni indeksi nisu u rasponu!");
+					return;
+				}
+
+				if (pocetniIndeks > krajnjiIndeks)
+				{
+					MessageBox.Show("Početni indeks ne moze biti veći od krajnjeg!");
+					return;
+				}
+
+				rtxt_brzine.Clear();
+				for (int i = pocetniIndeks; i <= krajnjiIndeks; i++)
+				{
+					rtxt_brzine.AppendText($"{brzineucitano[i]} \n");
+				}
+			}
+			catch
+			{
+				MessageBox.Show("Krivi format!");
+			}
+
 		}
 		#endregion
 	}
