@@ -117,7 +117,7 @@ namespace Seminarski
 
 			for (int i = 0; i < brzineucitano.Length; i++)
 			{
-				//Ako je brzina 0, preskoči
+				//Ako brzina nije 0, preskoči
 				if (brzineucitano[i] != 0)
 				{
 					continue;
