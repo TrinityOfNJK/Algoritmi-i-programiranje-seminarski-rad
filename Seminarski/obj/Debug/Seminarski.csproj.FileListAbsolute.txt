@@ -20,3 +20,14 @@ T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Semi
 T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.CoreCompileInputs.cache
 T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.exe
 T:\Repository\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.pdb
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\bin\Debug\Seminarski.exe.config
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\bin\Debug\Seminarski.exe
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\bin\Debug\Seminarski.pdb
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.AssemblyReference.cache
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.SuggestedBindingRedirects.cache
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.StajanjaApp.resources
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.Properties.Resources.resources
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.GenerateResource.cache
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.csproj.CoreCompileInputs.cache
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.exe
+T:\Repositories\Algoritmi i programiranje seminarski rad\Seminarski\obj\Debug\Seminarski.pdb
