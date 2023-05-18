@@ -19,9 +19,7 @@ namespace Seminarski
 
 		}
 
-		//=================================================================================================\\
-
-		#region Events
+		#region Događaji (Events)
 
 		private void tsm_ucitaj_Click(object sender, EventArgs e)
 		{
@@ -71,7 +69,6 @@ namespace Seminarski
 			}
 		}
 		#endregion
-
 
 		#region Metode
 
